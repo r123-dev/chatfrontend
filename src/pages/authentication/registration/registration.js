@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import { withRouter } from 'react-router-dom';
+
 
 import { isUsernameAvailableHTTPRequest, registerHTTPRequest } from "./../../../services/api-service";
 import { setItemInLS } from "./../../../services/storage-service";
 
-import './registration.css'
+import './registeration.css'
 
 function Registration(props) {
   const [registrationErrorMessage, setErrorMessage] = useState(null);
@@ -74,4 +74,4 @@ function Registration(props) {
   );
 }
 
-export default withRouter(Registration);
+export default Registration;

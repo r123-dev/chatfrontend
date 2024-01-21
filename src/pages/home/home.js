@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { withRouter } from 'react-router-dom';
 
 import { userSessionCheckHTTPRequest } from "./../../services/api-service";
 import {
@@ -115,4 +114,4 @@ function Home(props) {
   );
 }
 
-export default withRouter(Home);
+export default Home;

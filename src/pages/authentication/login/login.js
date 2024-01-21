@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { withRouter } from 'react-router-dom';
+
 
 import { loginHTTPRequest } from "./../../../services/api-service";
 import { setItemInLS } from "./../../../services/storage-service";
@@ -54,4 +54,4 @@ function Login(props) {
   );
 }
 
-export default withRouter(Login);
+export default Login;

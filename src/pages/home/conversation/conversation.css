@@ -10,11 +10,11 @@
     justify-content: center;
     flex-direction: column;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -webkit-border-image: url('borderthick.png');
     /* Safari 3.1-5 */
-    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -o-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Opera 11-12.1 */
-    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
 }
 
 
@@ -41,11 +41,11 @@
     padding-bottom: 10px;
     padding-left: 0px;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -webkit-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -o-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Opera 11-12.1 */
-    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
 }
 
 .message-thread-container .message {
@@ -65,11 +65,11 @@
     text-align: left;
     background-color: rgba(127, 255, 212, 0.33);
     border: 2px solid transparent;
-    -webkit-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -webkit-border-image: url('../chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -o-border-image: url('../chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Opera 11-12.1 */
-    border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    border-image: url('../chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
 
 }
 
@@ -93,7 +93,7 @@
     outline: none;
     margin-bottom: 20px;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
-    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
-    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
+    -webkit-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
+    -o-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
+    border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 10px 15px 5px 10px round;
 }

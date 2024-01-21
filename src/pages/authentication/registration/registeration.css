@@ -17,11 +17,11 @@
     padding: 4px 2px;
     outline: none;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border.png') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
+    -webkit-border-image: url('../border.jpg') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border.png') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
+    -o-border-image: url('../border.jpg') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
     /* Opera 11-12.1 */
-    border-image: url('/border.png') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
+    border-image: url('../border.jpg') 10 / 10px 5px 5px 5px / 10px 5px 5px 10px round;
 }
 
 .app__form-row button {
@@ -31,9 +31,9 @@
     outline: none;
     cursor: pointer;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -webkit-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -o-border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Opera 11-12.1 */
-    border-image: url('/border-thick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    border-image: url('borderthick.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
 }

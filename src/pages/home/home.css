@@ -13,11 +13,11 @@
     margin-top: 20px;
     border-bottom: 2px solid transparent;
 
-     -webkit-border-image: url('/border.png') 10 / 0px 0px 10px 0px / 0px 0px 10px 0px round;
+     -webkit-border-image: url('./chat-list/tp204-background-05.jpg') 10 / 0px 0px 10px 0px / 0px 0px 10px 0px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border.png') 10 / 0px 0px 10px 0px / 0px 0px 10px 0px round;
+    -o-border-image: url('./chat-list/tp204-background-05.jpg') 10 / 0px 0px 10px 0px / 0px 0px 10px 0px round;
     /* Opera 11-12.1 */
-    border-image: url('/border.png') 10 / 0px 0px 10px 0px / 0px 0px 10px 0px round;
+    border-image: url('./chat-list/tp204-background-05.jpg') 10 / 0px 0px 10px 0px / 0px 0px 10px 0px round;
 }
 
 .app__header-user {
@@ -33,11 +33,11 @@
     font-size: 30px;
     margin-right: 10px;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -webkit-border-image: url('./chat-list//tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -o-border-image: url('./chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Opera 11-12.1 */
-    border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    border-image: url('./chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
 }
 
 .user-details {
@@ -54,11 +54,11 @@
     outline: none;
     cursor: pointer;
     border: 2px solid transparent;
-    -webkit-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -webkit-border-image: url('./chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Safari 3.1-5 */
-    -o-border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    -o-border-image: url('./chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
     /* Opera 11-12.1 */
-    border-image: url('/border.png') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
+    border-image: url('./chat-list/tp204-background-05.jpg') 10 / 10px 10px 10px 10px / 5px 5px 5px 5px round;
 }
 
 .app__content-container {

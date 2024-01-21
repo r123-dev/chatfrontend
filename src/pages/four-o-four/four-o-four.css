@@ -3,7 +3,7 @@
 }
 
 .app__FourOFour-box {
-    background-image: url(/404-page.png);
+    background-image: url(./404-page.png);
     width: 80%;
     height: 300px;
     background-position: center;

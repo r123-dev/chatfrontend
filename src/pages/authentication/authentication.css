@@ -47,7 +47,7 @@ button.authentication__tab-button {
 
 button.active.authentication__tab-button::after {
     content: '';
-    background: url(/border.png);
+    background: url("./border.jpg");
     height: 11px;
     width: 50px;
     position: absolute;
