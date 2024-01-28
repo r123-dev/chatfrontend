@@ -31,7 +31,7 @@ const useFetch = (props) => {
           userDetails.userID
         );
         if (!isUserLoggedInResponse.response) {
-          props.history.push(`/`);
+          window.location="/";
         } else {
           const webSocketConnection = connectToWebSocket(userDetails.userID);
           if (webSocketConnection.webSocketConnection === null) {

@@ -1,4 +1,4 @@
-const API_ENDPOINTS = "http://127.0.0.1:8000";
+const API_ENDPOINTS = "http://localhost:8080";
 
 export async function loginHTTPRequest(username, password) {
     const response = await fetch(`${API_ENDPOINTS}/login`, {
@@ -28,7 +28,7 @@ export async function registerHTTPRequest(username, password) {
 }
 
 export async function isUsernameAvailableHTTPRequest(username) {
-    const response = await fetch(`${API_ENDPOINTS}/isUsernameAvailable/${username}`, {
+    const response = await fetch(`${API_ENDPOINTS}/isUsernameAvailable/:${username}`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'

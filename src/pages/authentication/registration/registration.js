@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-
+import { withRouter ,Routes} from 'react-router-dom';
+//import {useHistory} from 'react-router-dom';
 
 import { isUsernameAvailableHTTPRequest, registerHTTPRequest } from "./../../../services/api-service";
 import { setItemInLS } from "./../../../services/storage-service";
@@ -12,7 +13,7 @@ function Registration(props) {
   const [password, updatePassword] = useState(null);
 
   let typingTimer = null;
-
+ //const history=useHistory();
 
   const handlePasswordChange = async (event) => {
     updatePassword(event.target.value);
@@ -30,10 +31,11 @@ function Registration(props) {
   }
 
   const checkIfUsernameAvailable = async (username) => {  
+     
     props.displayPageLoader(true);
     const isUsernameAvailableResponse = await isUsernameAvailableHTTPRequest(username);
     props.displayPageLoader(false);
-    if (!isUsernameAvailableResponse.response.isUsernameAvailable) {
+    if (!isUsernameAvailableResponse.response) {
       setErrorMessage(isUsernameAvailableResponse.message);
     } else {
       setErrorMessage(null);
@@ -48,7 +50,8 @@ function Registration(props) {
 
     if (userDetails.code === 200) {
       setItemInLS('userDetails', userDetails.response)
-      props.history.push(`/home`)
+      //props.history.push(`/home/`)
+    window.location="/home/";
     } else {
       setErrorMessage(userDetails.message);
     }
@@ -58,7 +61,7 @@ function Registration(props) {
     <div className="app__register-container">
        <div className="app__form-row">
         <label>Username:</label>
-        <input type="email" className="email" onKeyDown={handleKeyDownChange}  onKeyUp={handleKeyUpChange}/>
+        <input type="email" className="email" onKeyDown={handleKeyDownChange}  onKeyUp={handleKeyUpChange} autoComplete='off'/>
       </div>
       <div className="app__form-row">
         <label>Password:</label>
